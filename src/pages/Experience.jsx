@@ -4,14 +4,14 @@ import { EXPERIENCE_DATA } from "../data/experience";
 
 const TimelineItem = ({ item, index }) => {
   return (
-    <div className="relative flex flex-col md:flex-row justify-center items-stretch w-full my-12 md:my-24 group px-4 md:px-0">
+    <div className="relative flex flex-col md:flex-row justify-center items-stretch w-full my-16 md:my-32 group px-4 md:px-0">
       
       {/* Center Line Node */}
       <motion.div 
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         viewport={{ once: true, margin: "-100px" }}
-        className="hidden md:block absolute left-1/2 top-8 -translate-x-1/2 w-5 h-5 bg-white rounded-full z-20 border-4 border-black"
+        className="hidden md:block absolute left-1/2 top-8 -translate-x-1/2 w-6 h-6 bg-white rounded-full z-20 border-[6px] border-black"
       />
 
       {/* Left Side (Info Card) */}
@@ -21,27 +21,27 @@ const TimelineItem = ({ item, index }) => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="bg-[#111] border border-white/5 p-8 rounded-2xl w-full max-w-lg hover:border-white/10 transition-colors"
+          className="bg-[#111] border border-white/5 p-10 rounded-3xl w-full max-w-xl hover:border-white/10 transition-colors shadow-2xl"
         >
-          <h3 className="text-2xl font-bold text-white mb-2">
+          <h3 className="text-3xl md:text-4xl font-black text-white mb-3 tracking-tight">
             {item.company}
           </h3>
-          <h4 className="text-lg font-semibold text-white/90 mb-4">
+          <h4 className="text-xl md:text-2xl font-bold text-white/90 mb-5">
             {item.role}
           </h4>
-          <p className="text-sm text-white/50 mb-1">
+          <p className="text-base font-semibold text-white/60 mb-2 tracking-wide uppercase">
             {item.date}
           </p>
-          <p className="text-sm text-white/50 italic mb-6">
+          <p className="text-base font-medium text-white/50 italic mb-8">
             {item.location}
           </p>
           
-          <div className="flex flex-wrap gap-2">
-            <span className="text-[10px] font-bold uppercase tracking-widest bg-white/10 text-white/80 px-3 py-1.5 rounded-full">
+          <div className="flex flex-wrap gap-3">
+            <span className="text-xs font-black uppercase tracking-widest bg-white text-black px-4 py-2 rounded-full shadow-sm">
               {item.type}
             </span>
             {item.tags.map(tag => (
-              <span key={tag} className="text-[10px] font-bold uppercase tracking-widest bg-white/5 border border-white/10 text-white/60 px-3 py-1.5 rounded-full">
+              <span key={tag} className="text-xs font-bold uppercase tracking-widest bg-white/10 border border-white/20 text-white/80 px-4 py-2 rounded-full">
                 {tag}
               </span>
             ))}
@@ -56,12 +56,12 @@ const TimelineItem = ({ item, index }) => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="bg-[#111] border border-white/5 p-8 rounded-2xl w-full max-w-xl hover:border-white/10 transition-colors flex flex-col justify-center"
+          className="bg-[#111] border border-white/5 p-10 rounded-3xl w-full max-w-2xl hover:border-white/10 transition-colors flex flex-col justify-center shadow-2xl"
         >
-          <ul className="space-y-4">
+          <ul className="space-y-6">
             {item.points.map((point, i) => (
-              <li key={i} className="text-sm text-white/70 leading-relaxed flex items-start">
-                <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-white/30 rounded-full flex-shrink-0" />
+              <li key={i} className="text-base md:text-lg font-medium text-white/80 leading-relaxed flex items-start">
+                <span className="mr-4 mt-2.5 w-2 h-2 bg-white/40 rounded-full flex-shrink-0" />
                 <span>{point}</span>
               </li>
             ))}
