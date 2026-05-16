@@ -7,6 +7,7 @@ import ProjectFilter from "../components/projects/ProjectFilter";
 import FeaturedProjectCard from "../components/projects/FeaturedProjectCard";
 import OtherProjectCard from "../components/projects/OtherProjectCard";
 import GithubCTA from "../components/projects/GithubCTA";
+import SEO from "../components/common/SEO";
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -32,6 +33,10 @@ const Projects = () => {
 
   return (
     <div className="flex flex-col w-full min-h-screen">
+      <SEO 
+        title="Projects & Engineering Work — Pawan Eswaran" 
+        description="A showcase of full-stack platforms, system architectures, and developer tools built by Pawan Eswaran." 
+      />
       
       <ProjectsHero totalProjects={PROJECTS_DATA.length} />
       
