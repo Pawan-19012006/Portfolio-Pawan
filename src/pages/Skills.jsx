@@ -5,42 +5,42 @@ import { Server, LayoutTemplate, Cloud, BrainCircuit, Database, Link as LinkIcon
 const SKILL_CATEGORIES = [
   {
     title: "Backend",
-    icon: <Server size={32} className="mb-6 text-white" />,
+    icon: <Server size={32} className="text-white" />,
     items: ["Java", "Spring Boot", "Node.js", "Express.js", "REST APIs", "SQL", "PostgreSQL", "Database Design", "System Design", "API Development", "Authentication", "Claims Processing Systems", "Medical Billing Systems", "Backend Architecture"]
   },
   {
     title: "Frontend",
-    icon: <LayoutTemplate size={32} className="mb-6 text-white" />,
+    icon: <LayoutTemplate size={32} className="text-white" />,
     items: ["React.js", "HTML", "CSS", "JavaScript", "Responsive UI Design", "Dashboard Development", "Workflow Management Interfaces"]
   },
   {
     title: "DevOps / Cloud",
-    icon: <Cloud size={32} className="mb-6 text-white" />,
+    icon: <Cloud size={32} className="text-white" />,
     items: ["Docker", "Linux", "Microsoft Azure", "Cloud Deployment", "Containerization", "Cloud Architecture", "Resource Management", "Deployment Workflows"]
   },
   {
     title: "Machine Learning / AI",
-    icon: <BrainCircuit size={32} className="mb-6 text-white" />,
+    icon: <BrainCircuit size={32} className="text-white" />,
     items: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "XGBoost", "Machine Learning", "Data Preprocessing", "Feature Engineering", "Model Evaluation", "Predictive Modeling", "Artificial Intelligence", "Data Analysis", "Data Visualization", "Regression Models", "EDA"]
   },
   {
     title: "Data Eng & Analytics",
-    icon: <Database size={32} className="mb-6 text-white" />,
+    icon: <Database size={32} className="text-white" />,
     items: ["Data Pipelines", "Structured Data", "Unstructured Data", "ETL Concepts", "Process Mining", "Business Analytics", "Execution Management Systems", "Power BI", "Data Transformation", "KPI Analysis", "Conformance Checking", "Throughput Analysis", "ERP Data Analysis"]
   },
   {
     title: "Blockchain / Web3",
-    icon: <LinkIcon size={32} className="mb-6 text-white" />,
+    icon: <LinkIcon size={32} className="text-white" />,
     items: ["Blockchain", "Web3", "Smart Contracts", "Decentralized Systems", "Blockchain Architecture", "Web3 Community Building"]
   },
   {
     title: "Finance / FinTech",
-    icon: <LineChart size={32} className="mb-6 text-white" />,
+    icon: <LineChart size={32} className="text-white" />,
     items: ["FinTech", "Financial Analytics", "Financial Literacy Systems", "Treasury Management", "Budgeting", "Expense Management", "DeFi", "Digital Assets", "Financial Automation"]
   },
   {
     title: "Leadership",
-    icon: <Users size={32} className="mb-6 text-white" />,
+    icon: <Users size={32} className="text-white" />,
     items: ["Leadership", "Team Management", "Sponsorship", "Public Speaking", "Negotiation", "Event Coordination", "Mentorship", "Strategic Planning", "Communication", "Resource Allocation", "Documentation", "Relationship Management"]
   }
 ];
