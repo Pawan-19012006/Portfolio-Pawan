@@ -19,13 +19,13 @@ const WorkCard = ({ project }) => {
         {/* Front of the Card */}
         <div className="absolute inset-0 backface-hidden bg-[#f4f4f4] rounded-[2rem] p-8 flex flex-col hover:shadow-2xl transition-shadow duration-500 border border-black/5">
           <div className="flex-1 flex flex-col items-center justify-center text-center">
-            <h3 className="text-2xl font-bold text-black mb-4 px-2">
+            <h3 className="text-3xl md:text-4xl font-black text-black mb-6 px-4 leading-tight tracking-tight">
               {project.title}
             </h3>
-            <span className="text-xs font-bold uppercase tracking-widest text-black/40 mb-6 block">
+            <span className="text-xs md:text-sm font-black uppercase tracking-[0.2em] text-black/50 mb-8 block">
               {project.category}
             </span>
-            <p className="text-sm font-medium text-black/70 px-4 leading-relaxed line-clamp-6">
+            <p className="text-base md:text-lg font-bold text-black/80 px-6 leading-relaxed line-clamp-5">
               {project.description}
             </p>
           </div>

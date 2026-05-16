@@ -39,14 +39,14 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h2 className="text-4xl lg:text-5xl font-bold tracking-tighter text-white mb-2 lg:mb-4">
+            <h2 className="text-5xl lg:text-6xl font-black tracking-tighter text-white mb-2 lg:mb-4">
               Hi,
             </h2>
-            <h1 className="text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight mb-4 lg:mb-6">
+            <h1 className="text-4xl lg:text-5xl font-black tracking-tight text-white leading-tight mb-6 lg:mb-8">
               I'm Pawan <br className="hidden lg:block"/> Eswaran
             </h1>
-            <p className="text-white/60 text-base lg:text-lg font-light leading-relaxed">
-              A self-motivated, highly skilled software developer with a deep understanding of backend systems, data engineering, and modern web architectures. Focused on building scalable solutions and adapting to complex engineering challenges.
+            <p className="text-white/80 text-lg lg:text-xl font-medium leading-relaxed">
+              A highly skilled software developer focused on backend systems, data engineering, and modern architectures.
             </p>
           </motion.div>
         </div>
@@ -59,11 +59,11 @@ const Home = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-col h-full justify-center"
           >
-            <h3 className="text-black font-bold tracking-widest uppercase text-sm mb-6 opacity-40">
+            <h3 className="text-black font-black tracking-[0.3em] uppercase text-sm mb-8 opacity-60">
               Focus & Expertise
             </h3>
             
-            <div className="h-32 flex items-center">
+            <div className="min-h-[180px] lg:min-h-[200px] flex items-center">
               <AnimatePresence mode="wait">
                 <motion.h2
                   key={textIndex}
@@ -71,16 +71,15 @@ const Home = () => {
                   animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                   exit={{ opacity: 0, y: -10, filter: "blur(4px)" }}
                   transition={{ duration: 0.5 }}
-                  className="text-3xl lg:text-5xl font-black text-black tracking-tight leading-tight"
+                  className="text-4xl lg:text-6xl font-black text-black tracking-tight leading-tight w-full"
                 >
                   {DYNAMIC_TEXTS[textIndex]}
                 </motion.h2>
               </AnimatePresence>
             </div>
 
-            <p className="text-black/60 text-base font-light leading-relaxed mt-6">
-              I don't just write code — I architect systems, shape data flows, and ship products that matter. 
-              My engineering approach prioritizes fundamentals over frameworks, ensuring clean, maintainable, and highly performant solutions.
+            <p className="text-black/80 text-lg lg:text-xl font-medium leading-relaxed mt-6">
+              I architect systems, shape data flows, and ship products that matter.
             </p>
 
             <div className="mt-12 flex items-center gap-4">

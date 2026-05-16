@@ -39,7 +39,7 @@ export const PROJECTS_DATA = [
   },
   {
     id: "citil",
-    title: "CITIL — Institutional Asset & Workflow Management System",
+    title: "CITIL",
     description: "CITIL is a mobile-first institutional workflow and asset management platform built to optimize procurement systems, inventory tracking, role-based operations, and organizational workflows.",
     category: "Enterprise Workflow Platform",
     techStack: ["React Native", "Expo", "Firebase"],
