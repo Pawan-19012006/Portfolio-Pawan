@@ -186,23 +186,6 @@ export const PROJECTS_DATA = [
       "Minimal UI experience"
     ]
   },
-  {
-    id: "profile-readme",
-    title: "Profile README",
-    description: "A personalized GitHub profile README showcasing projects, technical interests, engineering direction, and developer identity.",
-    category: "Developer Branding",
-    techStack: ["Markdown", "GitHub Profile"],
-    githubUrl: "https://github.com/Pawan-19012006",
-    liveUrl: "#",
-    status: "Active",
-    isFeatured: false,
-    highlights: [
-      "Personalized branding",
-      "Dynamic stats integration",
-      "Project highlights",
-      "Markdown best practices"
-    ]
-  }
 ];
 
 export const PROJECT_CATEGORIES = [

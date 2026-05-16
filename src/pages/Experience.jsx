@@ -10,7 +10,7 @@ const TimelineItem = ({ item, index }) => {
       <motion.div 
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
-        viewport={{ once: true, margin: "-100px" }}
+        viewport={{ once: false, margin: "-100px" }}
         className="hidden md:block absolute left-1/2 top-8 -translate-x-1/2 w-6 h-6 bg-white rounded-full z-20 border-[6px] border-black"
       />
 
@@ -19,7 +19,7 @@ const TimelineItem = ({ item, index }) => {
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, margin: "-100px" }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className="bg-[#111] border border-white/5 p-10 rounded-3xl w-full max-w-xl hover:border-white/10 transition-colors shadow-2xl"
         >
@@ -54,7 +54,7 @@ const TimelineItem = ({ item, index }) => {
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, margin: "-100px" }}
           transition={{ duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
           className="bg-[#111] border border-white/5 p-10 rounded-3xl w-full max-w-2xl hover:border-white/10 transition-colors flex flex-col justify-center shadow-2xl"
         >

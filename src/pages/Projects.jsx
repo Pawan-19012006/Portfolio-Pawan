@@ -86,7 +86,7 @@ const Projects = () => {
       {/* Massive Background Text */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
         <h1 className="text-[25vw] font-black tracking-tighter text-white/10 mix-blend-overlay whitespace-nowrap">
-          WORK
+          WORKS
         </h1>
       </div>
 

@@ -39,7 +39,7 @@ const SKILL_CATEGORIES = [
     items: ["FinTech", "Financial Analytics", "Financial Literacy Systems", "Treasury Management", "Budgeting", "Expense Management", "DeFi", "Digital Assets", "Financial Automation"]
   },
   {
-    title: "Leadership / Mgmt",
+    title: "Leadership",
     icon: <Users size={32} className="mb-6 text-white" />,
     items: ["Leadership", "Team Management", "Sponsorship", "Public Speaking", "Negotiation", "Event Coordination", "Mentorship", "Strategic Planning", "Communication", "Resource Allocation", "Documentation", "Relationship Management"]
   }
