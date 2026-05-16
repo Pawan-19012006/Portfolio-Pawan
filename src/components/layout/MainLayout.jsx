@@ -61,7 +61,7 @@ const MainLayout = () => {
         <div className="flex justify-between items-end w-full">
           {/* Bottom Left: Socials */}
           <div className="flex flex-col items-center gap-6 pointer-events-auto mix-blend-difference">
-            <a href="https://linkedin.com/in/pawaneswaran" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">
+            <a href="https://www.linkedin.com/in/pawan-eswaran-9ab4a130b/" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">
               <Briefcase size={18} />
             </a>
             <a href="https://github.com/Pawan-19012006" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">

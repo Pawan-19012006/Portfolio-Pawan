@@ -27,7 +27,7 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
           <a 
-            href="mailto:pawaneswaran@example.com" 
+            href="mailto:pawaneswaran19@gmail.com" 
             className="group relative px-8 py-4 bg-white text-black rounded-full overflow-hidden font-bold tracking-wide uppercase text-sm w-full md:w-auto"
           >
             <span className="relative z-10 flex items-center justify-center gap-2">
@@ -36,7 +36,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/pawaneswaran" 
+            href="https://www.linkedin.com/in/pawan-eswaran-9ab4a130b/" 
             target="_blank" 
             rel="noreferrer"
             className="px-8 py-4 bg-transparent border border-white/20 text-white rounded-full hover:bg-white/5 hover:border-white/40 transition-colors font-bold tracking-wide uppercase text-sm w-full md:w-auto flex items-center justify-center gap-2"
