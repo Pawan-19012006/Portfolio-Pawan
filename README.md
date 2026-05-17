@@ -1,4 +1,4 @@
-# Pawan Eswaran — Modern Editorial Engineering Portfolio
+# Pawan Eswaran — Engineering Portfolio
 
 A premium, highly polished, minimal, and modern **editorial engineering portfolio** designed to showcase software development expertise with cinematic visual presentation, fluid motion, and professional design aesthetics.
 
