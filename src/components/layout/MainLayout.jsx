@@ -62,14 +62,11 @@ const MainLayout = () => {
         <div className="flex justify-between items-end w-full">
           {/* Bottom Left: Socials */}
           <div className="flex flex-col items-center gap-8 pointer-events-auto">
-            <a href="https://www.linkedin.com/in/pawan-eswaran-9ab4a130b/" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">
-              <Briefcase size={22} />
-            </a>
             <a href="https://github.com/Pawan-19012006" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">
               <GitBranch size={22} />
             </a>
             <a href="https://www.linkedin.com/in/pawan-eswaran-9ab4a130b/" target="_blank" rel="noreferrer" className="text-white hover:text-white/70 transition-colors">
-              <MessageCircle size={22} />
+              <Briefcase size={22} />
             </a>
             <div className="w-[2px] h-20 bg-white/30 mt-4" />
           </div>
