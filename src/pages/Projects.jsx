@@ -38,7 +38,7 @@ const WorkCard = ({ project }) => {
         {/* Back of the Card */}
         <div className="absolute inset-0 backface-hidden bg-black text-white rounded-[2rem] p-8 flex flex-col items-center justify-center border border-white/20" style={{ transform: "rotateY(180deg)" }}>
           <h3 className="text-3xl font-black mb-8 text-center leading-tight">
-            Want to see<br/>my work?
+            Want to know<br/>more?
           </h3>
           
           <div className="flex flex-col gap-4 w-full px-4">

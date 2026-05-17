@@ -2,7 +2,7 @@ export const PROJECTS_DATA = [
   {
     id: "mednexus",
     title: "MedNexus",
-    description: "MedNexus is a full-stack hospital management system designed to streamline patient care, appointment scheduling, billing workflows, and operational management for hospitals and clinics.",
+    description: "MedNexus is a full-stack hospital management system designed to streamline patient care, appointment scheduling and billing workflows.",
     category: "Full Stack Healthcare Platform",
     techStack: ["React", "Node.js", "MySQL", "Docker"],
     githubUrl: "https://github.com/Pawan-19012006/MedNexus",
@@ -21,7 +21,7 @@ export const PROJECTS_DATA = [
   {
     id: "devwatch",
     title: "DevWatch",
-    description: "DevWatch is a GNOME Shell extension that transforms the Linux desktop into a developer-aware monitoring workspace capable of tracking projects, ports, builds, conflicts, and system performance in real time.",
+    description: "DevWatch is a GNOME Shell extension that transforms the Linux desktop into a developer-aware monitoring workspace capable of tracking projects.",
     category: "Developer Tooling / Linux Systems",
     techStack: ["JavaScript", "Linux", "GNOME Extensions"],
     githubUrl: "https://github.com/Pawan-19012006/DevWatch",
@@ -40,7 +40,7 @@ export const PROJECTS_DATA = [
   {
     id: "citil",
     title: "CITIL",
-    description: "CITIL is a mobile-first institutional workflow and asset management platform built to optimize procurement systems, inventory tracking, role-based operations, and organizational workflows.",
+    description: "CITIL is a mobile-first institutional workflow and asset management platform built to optimize procurement systems, inventory tracking, etc.",
     category: "Enterprise Workflow Platform",
     techStack: ["React Native", "Expo", "Firebase"],
     githubUrl: "https://github.com/Pawan-19012006/CITIL_Inventory_Management_System",
@@ -59,7 +59,7 @@ export const PROJECTS_DATA = [
   {
     id: "fintwitch",
     title: "FinTwitch",
-    description: "FinTwitch is a gamified personal finance platform that combines financial tools, quizzes, habit tracking, stock simulations, and finance education into an engaging interactive experience.",
+    description: "FinTwitch is a gamified personal finance platform that combines financial tools and finance education into an engaging interactive experience.",
     category: "FinTech / Gamified Learning",
     techStack: ["React", "Firebase", "JavaScript"],
     githubUrl: "https://github.com/Pawan-19012006/FinTwitch",
@@ -78,7 +78,7 @@ export const PROJECTS_DATA = [
   {
     id: "skilltrader",
     title: "SkillTrader",
-    description: "SkillTrader is a community-driven learning ecosystem where users can teach, collaborate, connect, and book learning sessions in a modern social-first educational environment.",
+    description: "SkillTrader is a learning ecosystem where users can teach, collaborate, connect in a modern educational environment.",
     category: "Social Learning Platform",
     techStack: ["React", "Firebase", "TypeScript"],
     githubUrl: "https://github.com/Pawan-19012006/SkillTrader",
@@ -96,7 +96,7 @@ export const PROJECTS_DATA = [
   {
     id: "codecrypt",
     title: "CodeCrypt",
-    description: "CodeCrypt is a secure anti-cheat assessment platform designed to enforce fullscreen examinations with violation detection, tab-switch monitoring, and automated security enforcement.",
+    description: "CodeCrypt is a secure anti-cheat assessment platform designed to enforce violation detection and tab-switch monitoring.",
     category: "Secure Assessment Platform",
     techStack: ["React", "TypeScript"],
     githubUrl: "https://github.com/Pawan-19012006/CodeCrypt",
@@ -115,7 +115,7 @@ export const PROJECTS_DATA = [
   {
     id: "zorphix",
     title: "Zorphix",
-    description: "Zorphix is an offline-first event management system that enables participant verification, QR-based check-ins, and local event operations without requiring constant internet connectivity.",
+    description: "Zorphix is an offline-first event management system that enables participant verification through QR Scanning and helps local event operations.",
     category: "Offline-First Event Management",
     techStack: ["React Native", "Expo", "SQLite", "Firebase"],
     githubUrl: "https://github.com/Pawan-19012006/Zorphix",
@@ -134,7 +134,7 @@ export const PROJECTS_DATA = [
   {
     id: "ghg-emissions",
     title: "GHG Emissions Model Training",
-    description: "Machine learning project focused on predicting greenhouse gas emissions using regression-based models, exploratory data analysis, preprocessing pipelines, and evaluation techniques.",
+    description: "Machine learning project focused on predicting greenhouse gas emissions using regression-based models and EDA.",
     category: "Machine Learning / Data Science",
     techStack: ["Python", "Jupyter Notebook", "Machine Learning"],
     githubUrl: "https://github.com/Pawan-19012006/GHG-Emissions-Model-Training",
@@ -153,7 +153,7 @@ export const PROJECTS_DATA = [
   {
     id: "positive-integers",
     title: "Positive Integers Data Notebooks",
-    description: "A collection of machine learning internship notebooks focused on exploratory analysis, preprocessing, visualization, and developer-oriented data science workflows.",
+    description: "A collection of machine learning internship notebooks focused on EDA, preprocessing and visualization.",
     category: "Machine Learning / Data Analytics",
     techStack: ["Python", "Jupyter Notebook"],
     githubUrl: "https://github.com/Pawan-19012006/Positive-Integers-data-notebooks",
