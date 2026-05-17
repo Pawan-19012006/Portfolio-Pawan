@@ -103,9 +103,3 @@ npm run preview
 2.  **Editorial White Space**: Massive margins and premium split containers to let content breathe without feeling crowded.
 3.  **Kinetic Animations**: Animations are built around micro-interactions (magnetic hovers, layout fades, and dynamic spring flips) to provide a tactile feeling.
 4.  **Dark Mode Integration**: Pure high-contrast dark color tokens (`#0a0a0a` / `#f4f4f4`) ensuring premium legibility.
-
----
-
-## 📄 License
-
-This project is open-source. Feel free to clone, customize, and use it as a foundation for your own developer showcase!
