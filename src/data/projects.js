@@ -151,6 +151,27 @@ export const PROJECTS_DATA = [
     ]
   },
   {
+  id: "lean-body-mass-prediction",
+  title: "Lean Body Mass Prediction",
+  description: "Machine learning project focused on predicting lean body mass using Feature engineering, XGB, CV and Hyperparameter tuning.",
+  category: "Machine Learning / Data Science",
+  techStack: ["Python", "Scikit-learn", "XGBoost", "Pandas", "NumPy"],
+  githubUrl: "https://github.com/Pawan-19012006/Lean-Body-Mass-Prediction",
+  liveUrl: "#",
+  status: "Completed",
+  isFeatured: true,
+  highlights: [
+    "Achieved Rank #2 on leaderboard",
+    "Advanced feature engineering",
+    "Cross-validation workflows",
+    "GridSearchCV and RandomizedSearchCV",
+    "Feature importance analysis",
+    "Regression model comparison",
+    "Data preprocessing and scaling",
+    "End-to-end ML experimentation pipeline"
+  ]
+  },
+  {
     id: "positive-integers",
     title: "Positive Integers Data Notebooks",
     description: "A collection of machine learning internship notebooks focused on EDA, preprocessing and visualization.",
