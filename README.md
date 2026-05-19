@@ -2,7 +2,7 @@
 
 A premium, highly polished, minimal, and modern **editorial engineering portfolio** designed to showcase software development expertise with cinematic visual presentation, fluid motion, and professional design aesthetics.
 
-This website is a completely custom-built SPA (Single Page Application) featuring high-contrast interactive splits, snap-scrolling project presentation, modular experience grids, and fluid transitions.
+This website is a completely custom-built SPA (Single Page Application) featuring high-contrast interactive splits, snap-scrolling project presentation and fluid transitions.
 
 ---
 
