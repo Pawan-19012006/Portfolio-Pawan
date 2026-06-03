@@ -1,10 +1,16 @@
+
+<div align="center">
+
 # Pawan Eswaran — Engineering Portfolio
 
-A cinematic, editorial-style engineering portfolio crafted to showcase software development expertise through immersive interactions, fluid motion, and modern minimalist design.
+<br>
 
-Built as a fully custom Single Page Application using React, Vite, Tailwind CSS, and Framer Motion.
+![React](https://img.shields.io/badge/FRAMEWORK-REACT%2019-149ECA?style=for-the-badge&labelColor=4B4B4B)
+![Vite](https://img.shields.io/badge/BUILD-VITE-8B5CF6?style=for-the-badge&labelColor=4B4B4B)
+![Tailwind](https://img.shields.io/badge/STYLING-TAILWIND%20CSS-06B6D4?style=for-the-badge&labelColor=4B4B4B)
+![Framer Motion](https://img.shields.io/badge/ANIMATION-FRAMER%20MOTION-EF4444?style=for-the-badge&labelColor=4B4B4B)
 
----
+</div>
 
 ## Overview
 
