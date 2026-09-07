@@ -97,12 +97,12 @@ const Projects = () => {
         style={{ scrollBehavior: 'smooth' }}
       >
         <div className="flex items-center gap-4 lg:gap-12 py-12">
-          {featuredProjects.map((project, idx) => (
+          {featuredProjects.map((project) => (
             <motion.div
               key={project.id}
               initial={{ opacity: 0, x: 100 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: idx * 0.1 + 0.2, duration: 0.6 }}
+              transition={{ duration: 0.6 }}
             >
               <WorkCard project={project} />
             </motion.div>
