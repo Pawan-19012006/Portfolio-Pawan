@@ -47,7 +47,7 @@ const SKILL_CATEGORIES = [
 
 const Skills = () => {
   return (
-    <div className="w-full min-h-screen relative bg-[#0a0a0a] text-white overflow-hidden flex flex-col justify-center py-32">
+    <div className="w-full min-h-screen min-h-dvh relative bg-[#0a0a0a] text-white overflow-hidden flex flex-col justify-center py-24 sm:py-32 pb-28 md:pb-32">
       <SEO title="Skills — Pawan Eswaran" />
       
       {/* Animated Network Background */}
@@ -70,9 +70,9 @@ const Skills = () => {
         </motion.svg>
       </div>
 
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 w-full relative z-10 flex-grow flex flex-col justify-center items-center">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12 w-full relative z-10 flex-grow flex flex-col justify-center items-center">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8 w-full">
           {SKILL_CATEGORIES.map((category, idx) => (
             <motion.div
               key={category.title}
@@ -81,7 +81,7 @@ const Skills = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ delay: (idx % 3) * 0.15, duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="bg-[#111111]/90 backdrop-blur-md border border-white/10 p-8 lg:p-10 rounded-3xl shadow-2xl relative overflow-hidden group"
+              className="bg-[#111111]/90 backdrop-blur-md border border-white/10 p-6 sm:p-8 lg:p-10 rounded-3xl shadow-2xl relative overflow-hidden group"
             >
               {/* Subtle hover gradient */}
               <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />

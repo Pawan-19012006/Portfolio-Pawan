@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-[80vh] flex flex-col justify-center items-center bg-black text-white relative px-6 py-24">
+    <div className="w-full min-h-[80vh] min-h-[80dvh] flex flex-col justify-center items-center bg-black text-white relative px-6 py-24 pb-28 md:pb-24">
       <SEO title="Contact — Pawan Eswaran" />
 
       <motion.div
