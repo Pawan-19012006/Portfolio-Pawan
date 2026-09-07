@@ -4,7 +4,7 @@ export const EXPERIENCE_DATA = [
     company: "Positive Integers Pvt Ltd",
     role: "Data Engineer",
     type: "Internship",
-    date: "Apr 2026 - Present",
+    date: "Apr 2026 - Jun 2026",
     location: "Chennai · On-site",
     tags: ["Data Pipelines", "Machine Learning", "Data Preprocessing", "AI Systems"],
     points: [
